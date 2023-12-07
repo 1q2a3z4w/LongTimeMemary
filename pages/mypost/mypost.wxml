@@ -1,0 +1,16 @@
+<!--pages/mypost/mypost.wxml-->
+<view class="page myposts">
+  <view class="container-item" wx:for="{{containers}}" wx:key="postID">
+    <view class="item-top">
+      <image src="{{item.profile_picture}}" mode="" />
+      <text>{{item.userName}}</text>
+    </view>
+    <view class="item-container">{{item.container}}</view>
+    <view class="item-bottom">
+      <button class="like">赞</button>
+      <button class="unlike">踩</button>
+      <button class="comment" bindtap="tapInit" data-postid="{{item.postID}}">评论</button>
+      <button class="forward">转发</button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,16 @@
+<!--pages/login/login.wxml-->
+
+<!-- pages/login/login.wxml -->
+<view class="container">
+  <view class="logo">
+    <image src="../../picture/logo.png" mode="aspectFit"></image>
+  </view>
+  <view class="input-group">
+    <input class="input" type="text" placeholder="请输入用户名" bindinput="onUsernameInput" />
+  </view>
+  <view class="input-group">
+    <input class="input" type="password" placeholder="请输入密码" bindinput="onPasswordInput" />
+  </view>
+  <view class="footer" bindtap="registerTap">没有账号？立即注册></view>
+  <button class="login-btn" bindtap="onLogin">登录</button>
+</view>

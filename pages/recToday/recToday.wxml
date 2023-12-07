@@ -1,0 +1,2 @@
+<!--pages/recToday/recToday.wxml-->
+<view class="hot"><image src="/picture/none.png" mode=""/></view>

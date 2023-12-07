@@ -1,0 +1,18 @@
+<!--pages/register/register.wxml-->
+<view class="container">
+  <view class="logo">
+    <image src="/picture/logo.png" mode="aspectFit"></image>
+  </view>
+  <view class="input-group">
+    <input class="input" type="text" placeholder="请输入用户名" bindinput="onUsernameInput" />
+  </view>
+  <view class="input-group">
+    <input class="input" type="password" placeholder="请输入密码" bindinput="onPasswordInput" />
+  </view>
+  <view class="input-group">
+    <input class="input" type="password" placeholder="确认密码" bindblur="onPasswordInput2" />
+  </view>
+  <view class="footer">已有账号?返回登陆></view>
+  <button class="login-btn" bindtap="onRegister">注册</button>
+</view>
+

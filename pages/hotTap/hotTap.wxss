@@ -1,0 +1,3 @@
+/* pages/hotTap/hotTap.wxss */
+.hot image{margin: 0 auto;}
+.hot {margin:0 auto;}

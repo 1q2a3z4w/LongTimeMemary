@@ -1,0 +1,11 @@
+<!--pages/note/note.wxml-->
+<view class="n_page">
+<view bindtap="draftTap" class="btnToDraft">草稿箱</view>
+<view class="container_input">
+  <textarea class="input-box" placeholder="今天有什么想说的，写下来吧" bindinput="draftInput" value="{{text}}" />
+</view>
+<view class="n-button">
+<button bindtap="saveDrafTap" type="primary">存为草稿</button>
+<button bindtap="pubTap" type="primary">发布</button>
+</view>
+</view>

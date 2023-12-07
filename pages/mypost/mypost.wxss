@@ -1,0 +1,47 @@
+/* pages/publish/publish.wxss */
+.myposts{
+  padding: 20rpx;
+}
+.container-item{
+  margin-bottom: 20rpx;
+}
+.item-top{
+  position: relative;
+}
+.item-top image{ 
+  width:100rpx;
+  height:100rpx;
+  border-radius: 50%;
+}
+.item-top text{
+  position: absolute;
+  margin: 30rpx;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+.item-container{
+  border-top: gainsboro 1rpx solid;
+  border-bottom:  gainsboro 1rpx solid ;
+}
+.item-bottom{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  border-bottom: gray 1rpx solid;
+}
+.item-bottom button{
+  background: url("https://m.biedoul.com/tplm7/static/hd.png") no-repeat;
+}
+.item-bottom .like{
+  background-position: 15px 10px;
+}
+.item-bottom .unlike{
+  background-position: 15px -15px;
+}
+.item-bottom .comment{
+  background-position: 10px -45px;
+}
+.item-bottom .forward{
+  background-position: 10px -75px;
+}

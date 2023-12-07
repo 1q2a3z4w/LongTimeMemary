@@ -1,0 +1,24 @@
+/* pages/userData/userData.wxss */
+.userinfo{
+  font-size: 20px;
+}
+.touxiang{
+  width: 300rpx;
+  height: 300rpx;
+  margin: 0 auto;
+}
+.gender{
+  margin: 0 auto;
+}
+
+.touxiang image{
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  border: #426755 ,solid ,2rpx;
+  margin: 20rpx auto;
+}
+.nicheng{
+  margin: 0 auto;
+  text-align: center;
+}

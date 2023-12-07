@@ -1,0 +1,41 @@
+/* pages/note/note.wxss */
+.n_page{
+  padding: 20rpx;
+}
+.n-button{
+  display: flex;
+}
+.n-button button{
+  width: 40%;
+}
+.btnToDraft{
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #426755;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+.container_input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.input-box {
+  width: 80%;
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}

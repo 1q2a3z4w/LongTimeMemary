@@ -1,0 +1,30 @@
+/**index.wxss**/
+.title_img{
+  width: 750rpx;
+  height: 60rpx;
+}
+.sliderImages image{
+  width: 750rpx;
+}
+.index_text{
+  font-size: 48rpx;
+  text-align: center;
+  margin-top: 20rpx;
+  margin-bottom: 30rpx;
+}
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx;
+  flex:content;
+}
+.bottom view{
+  border-radius: 10rpx;
+  width: 40%;
+  height: 100rpx;
+  background-color: #426755;
+  color: white;
+  line-height: 100rpx;
+  text-align: center;
+
+}

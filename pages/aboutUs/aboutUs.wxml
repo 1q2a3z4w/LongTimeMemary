@@ -1,0 +1,7 @@
+<!--pages/aboutUs/aboutUs.wxml-->
+<text>此miniAPP作者：旧人一个</text>
+<view>
+<text>QQ邮箱：1591122536@qq.com</text>
+</view>
+<text>GitHub主页：https://github.com/1q2a3z4w/</text>
+<view><text>版权所有，不可侵犯</text></view>

@@ -1,0 +1,23 @@
+/* pages/demo/demo.wxss */
+.message_item{
+  border: black solid 1rpx;
+  position: relative;
+  margin-bottom: 5rpx;
+  border-radius: 5rpx;
+}
+.delete_btn{
+  position: absolute;
+  right: 0rpx;
+  bottom: 0rpx;
+}
+.input-area .input{
+  margin-bottom: 5rpx;
+  border: black 1rpx solid;
+  border-radius: 10rpx;
+  height: 60rpx;
+  width: 500rpx;
+}
+.submit-btn{
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}

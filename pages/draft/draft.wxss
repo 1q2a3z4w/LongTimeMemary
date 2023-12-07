@@ -1,0 +1,13 @@
+/* pages/draft/draft.wxss */
+.d-bottom{
+display: flex;  
+}
+.d-text{
+  border: #426755 solid 2rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  padding: 10rpx;  
+}
+.page{
+  padding: 40rpx;
+}

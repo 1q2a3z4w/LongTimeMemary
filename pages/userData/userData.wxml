@@ -1,0 +1,9 @@
+<!--pages/userData/userData.wxml-->
+<view wx:for="{{userInfo}}" class="userinfo">
+  <view class="touxiang"><image src="{{item.uprofile}}" mode=""/></view>
+  <view class="nicheng">昵称:{{item.uname}}</view>
+  <!-- <view class="gender">性别：<radio-group bindchange="">
+    <radio value="" checked="">男</radio>
+    <radio value="">女</radio> -->
+  <!-- </radio-group></view> -->
+</view>

@@ -1,0 +1,16 @@
+<!--pages/draft/draft.wxml-->
+<view class="page">
+  <view wx:if="{{containers.length!=0}}">
+    <view class="d-text" wx:for="{{containers}}" wx:key="*this">
+      <view class="d-container">
+        <view>{{item.text}}</view>
+        <view>{{item.createTime}}</view>
+      </view>
+      <view class="d-bottom">
+        <button type="primary" size="mini" bindtap="pubTap" data-id="{{item.textid}}">发布</button>
+        <button type="warn" size="mini" bindtap="deleteTap" data-id="{{item.textid}}">删除</button>
+      </view>
+    </view>
+  </view>
+  <view wx:else>什么也没有呢，去写点东西吧。</view>
+</view>

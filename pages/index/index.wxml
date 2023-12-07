@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<image src="/picture/image.png" mode="aspectFit" class="title_img"/>
+<swiper class="sliderImages" 	indicator-dots 	indicator-color="white" indicator-active-color="#666666"
+autoplay="{{true}}"interval="3000" 	circular="{{true}}">
+  <swiper-item>
+    <image src="https://bkimg.cdn.bcebos.com/pic/cf1b9d16fdfaaf5160504584805494eef01f7a5e?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2UxNTA=,g_7,xp_5,yp_5/format,f_auto" mode="scaleToFill" />
+  </swiper-item>
+  <swiper-item>
+    <image src="https://img2.baidu.com/it/u=2257799194,2566047008&fm=253&fmt=auto&app=120&f=JPEG?w=1200&h=800" mode="scaleToFill" />
+  </swiper-item>
+  <swiper-item>
+  <image src="https://img0.baidu.com/it/u=741268616,1401664941&fm=253&fmt=auto&app=138&f=JPEG?w=748&h=500" mode="scaleToFill" />
+  </swiper-item>
+  <swiper-item>
+  <image src="https://img2.baidu.com/it/u=2896911436,1340659831&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500" mode="heightFix" />
+  </swiper-item>
+  <swiper-item>
+  <image src="https://img1.baidu.com/it/u=3358848204,1936258606&fm=253&fmt=auto&app=120&f=JPEG?w=1421&h=800" mode="heightFix" />
+  </swiper-item>
+</swiper>
+
+<view class="index_text">{{uname}},{{man}}好</view>
+<view class="index_text">今天是{{currentDate}}</view>
+
+<view class="bottom bot1"><view bindtap="recTodayTab">今日推荐</view>
+<view bindtap="hotTap">热门佳句</view></view>
+<view class="bottom bot2"><view bindtap="classicRecalltab">回味经典</view>
+<view bindtap="EasyRelaxTab">轻松一下</view></view>
+

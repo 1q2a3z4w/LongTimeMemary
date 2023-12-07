@@ -1,0 +1,23 @@
+<!--pages/postDetails/postDetails.wxml-->
+<view class="container-item" wx:for="{{containers}}" wx:key="*this">
+  <view class="item-top">
+    <image src="{{item.profile_picture}}" mode="" />
+    <text>{{item.userName}}</text>
+    <view class="item-container">{{item.container}}</view>
+    <view class="item-timer">{{item.pubTime}}</view>
+  </view>
+</view>
+  <view class="comments" wx:if="{{comments.length>0}}">
+    <view class="comments-item" wx:for="{{comments}}">
+      <view class="item-top">
+        <image src="{{item.profile_picture}}" mode="" />
+        <text>{{item.userName}}</text>
+      </view>
+      <view class="item-container">{{item.container}}</view>
+      <view class="item-timer">{{item.pubTime}}</view>
+    </view>
+  </view>
+  <view class="comments" wx:else>还没有评论呢，抢个沙发吧！</view>
+  <view class="detail-bottom">
+    <input type="text" placeholder="说点什么。。" class="into-review" /><text>点赞</text><text>转发</text><text>收藏</text>
+  </view>

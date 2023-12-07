@@ -1,0 +1,12 @@
+<!--pages/set/set.wxml-->
+<view class="container">
+  <view class="title">设置</view>
+  <view class="options">
+    <view class="option" bindtap="changeTheme">
+      <text>主题</text>
+    </view>
+    <view class="option" bindtap="changeLanguage">
+      <text>语言</text>
+    </view>
+  </view>
+</view>

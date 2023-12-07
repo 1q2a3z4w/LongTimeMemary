@@ -1,0 +1,263 @@
+.header{
+  padding: 20px;
+  overflow: hidden;
+  clear: both;
+  background-color: #fff;
+}
+
+.header image{
+  width: 70px;
+  border-radius: 50%;
+  float: left;
+}
+
+.header text{
+  float: left;
+  font-size: 15px;
+  color: #333;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.user-info-container {
+  padding: 20rpx 30rpx;
+  width: 100%;
+  display: flex;
+  border-width: 20rpx;
+  border-bottom-style: none;
+  border-bottom-color: rgb(245, 245, 245);
+  position: relative;
+}
+
+.user-info-wrap {
+  height: 120rpx;
+  width: 60%;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.user-img-wrap {
+  height: 120rpx;
+  width: 120rpx;
+  border-radius: 10rpx;
+}
+
+.user-edit-wrap {
+  height: 120rpx;
+  width: 126rpx;
+  display: flex;
+  position: absolute;
+  right: 20rpx;
+}
+
+.wx-image_bkrIYH {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.user-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 10rpx;
+  border-bottom-right-radius: 10rpx;
+  border-bottom-left-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+  border-top-left-radius: 10rpx;
+}
+
+.wx-text_qUYxY6 {
+  position: relative;
+}
+
+.user-info-name {
+  position: relative;
+  height: 60%;
+  width: 100%;
+  font-size: 1rem;
+  text-indent: 0rpx;
+  text-align: left;
+  line-height: 200%;
+  overflow: hidden;
+}
+
+.user-info-follower {
+  height: 40%;
+  width: 100%;
+  position: relative;
+  font-size: 1rem;
+  color: rgb(133, 133, 133);
+  line-height: 120%;
+}
+
+.user-update {
+  color: rgb(136, 136, 136);
+  font-size: 1rem;
+  padding-top: 40rpx;
+  position: relative;
+  height: 100%;
+  width: 112rpx;
+}
+
+.user-info-arrow {
+  width: 14rpx;
+  height: 14rpx;
+  border-width: 2rpx;
+  border-color: rgb(136, 136, 136);
+  border-style: none solid solid none;
+  transform: rotate(315deg) scale(1) translate(0%, 0%);
+  transition: All 0s ease;
+  -ms-transform: rotate(315deg) scale(1) translate(0%, 0%);
+  -o-transform: rotate(315deg) scale(1) translate(0%, 0%);
+  -moz-transform: rotate(315deg) scale(1) translate(0%, 0%);
+  -webkit-transform: rotate(315deg) scale(1) translate(0%, 0%);
+  -ms-transition: All 0s ease;
+  -o-transition: All 0s ease;
+  -moz-transition: All 0s ease;
+  -webkit-transition: All 0s ease;
+}
+
+.user-info-arrow-wrap {
+  position: absolute;
+  right: 30rpx;
+  height: 100%;
+  margin-left: 0px;
+  padding-top: 30rpx;
+  width: 14rpx;
+}
+
+.boundary {
+  height: 20rpx;
+  width: 100%;
+  background-color: rgba(245, 245, 245, 1);
+}
+
+.user-bbs-info-container {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.user-post-wrap {
+  width: auto;
+  height: 98rpx;
+  padding: 24rpx 30rpx 24rpx 0rpx;
+  display: flex;
+  margin-left: 30rpx;
+  border-width: 2rpx;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(245, 245, 245, 1);
+}
+
+.user-post-icon {
+  width: 50rpx;
+  height: 50rpx;
+  /* background: url("http://i.pengxun.cn/static/vzan/web/post-big-pic-09.png") 0px 0px / 100% no-repeat; */
+  vertical-align: middle;
+  margin-right: 10rpx;
+  display: inline-block;
+}
+
+.user-post-text-wrap {
+  display: inline-block;
+  height: 50rpx;
+  position: static;
+  padding-top: 4rpx;
+  padding-bottom: 4rpx;
+}
+
+.user-text {
+  position: static;
+  font-size: 1rem;
+  line-height: 100%;
+}
+
+.user-join-icon {
+  width: 50rpx;
+  height: 50rpx;
+  /* background: url("") no-repeat 0 -50rpx; */
+  vertical-align: middle;
+  margin-right: 10rpx;
+  display: inline-block;
+  background-size: 100%
+}
+
+.user-reward-icon {
+  width: 50rpx;
+  height: 50rpx;
+  /* background: url("") 0px -50px / 100% no-repeat; */
+  vertical-align: middle;
+  margin-right: 10rpx;
+  display: inline-block;
+}
+
+.user-list-container {
+  height: 50rpx;
+  position: absolute;
+  right: 20rpx;
+  width: 74rpx;
+  display: flex;
+}
+
+.post-list-num {
+  position: relative;
+  height: 100%;
+  width: 60rpx;
+  font-size: 28rpx;
+  font-style: normal;
+  font-family: "Microsoft YaHei", Arial;
+  line-height: 50rpx;
+}
+
+.user-arrow-wrap {
+  height: 100%;
+  width: 14rpx;
+  padding: 18rpx 10rpx 18rpx 0px;
+  text-align: right;
+  position: absolute;
+  right: 30rpx;
+}
+
+.user-post-chat {
+  width: 50rpx;
+  height: 50rpx;
+  /* background: url("") 0px -200rpx / 100% no-repeat; */
+  vertical-align: middle;
+  margin-right: 10rpx;
+  display: inline-block;
+}
+
+.user-post-credit {
+  width: 50rpx;
+  height: 50rpx;
+  /* background: url("") 0px -250rpx / 100% no-repeat; */
+  vertical-align: middle;
+  margin-right: 10rpx;
+  display: inline-block;
+}
+
+.user-post-gift {
+  width: 50rpx;
+  height: 50rpx;
+  /* background: url("") 0px -300rpx / 100% no-repeat; */
+  vertical-align: middle;
+  margin-right: 10rpx;
+  display: inline-block;
+}
+
+.user-post-myad {
+  width: 50rpx;
+  height: 50rpx;
+  /* background: url("") 0px -350rpx / 100% no-repeat; */
+  vertical-align: middle;
+  margin-right: 10rpx;
+  display: inline-block;
+}
+
+.user-post-aboutus {
+  width: 50rpx;
+  height: 50rpx;
+  /* background: url("") 0px -400rpx / 100% no-repeat; */
+  vertical-align: middle;
+  margin-right: 10rpx;
+  display: inline-block;
+}

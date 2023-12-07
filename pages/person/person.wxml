@@ -1,0 +1,134 @@
+<!--pages/person/person.wxml-->
+<view class="page-container">
+  <view class="user-info-container" wx:if="{{userInfo.nickname!==''}}" bind:tap="userDataTab">
+    <view class="user-img-wrap">
+      <image class="user-img" mode="scaleToFill" src="{{userInfo.uprofile}}" style="background-size: 100% 100%; background-position: 0% 0%; background-repeat: no-repeat;" />
+    </view>
+    <view class="user-info-wrap">
+      <text class="c-block user-info-name">{{userInfo.nickname}}</text>
+      <text class="c-block user-info-follower"></text>
+    </view>
+    <text class="c-block user-update"></text>
+    <view class="user-info-arrow-wrap">
+      <view class="user-info-arrow" />
+    </view>
+  </view>
+  <view wx:else><button type="primary" bindtap="getUserProfile">登录</button></view>
+  <view class="boundary" />
+  <view class="user-bbs-info-container">
+    <view class="user-post-wrap" bindtap="myPostTap">
+      <view class="user-post-icon" />
+      <view class="user-post-text-wrap">
+        <text class="user-text">我的发帖</text>
+      </view>
+      <view class="user-list-container">
+        <view class="post-list-num"></view>
+      </view>
+      <view class="user-arrow-wrap">
+        <view class="user-info-arrow" />
+      </view>
+    </view>
+    <view class="user-post-wrap" bindtap="myComTap">
+      <view class="user-join-icon" />
+      <view class="user-post-text-wrap">
+        <text class="user-text">我的评论</text>
+      </view>
+      <view class="user-list-container">
+        <view class="post-list-num"></view>
+      </view>
+      <view class="user-arrow-wrap">
+        <view class="user-info-arrow" />
+      </view>
+    </view>
+    <view class="user-post-wrap" bindtap="liketap">
+      <view class="user-reward-icon" />
+      <view class="c-minheight wx-view_yg2I9A">
+        <text class="user-text">我的收藏</text>
+      </view>
+      <view class="user-list-container">
+        <view class="post-list-num"></view>
+      </view>
+      <view class="user-arrow-wrap">
+        <view class="user-info-arrow" />
+      </view>
+    </view>
+  </view>
+  <view class="boundary" />
+  <view class="user-bbs-info-container">
+    <view class="user-post-wrap" bindtap="msgCenterTap">
+      <view class="user-post-icon" />
+      <view class="user-post-text-wrap">
+        <text class="user-text">消息中心</text>
+      </view>
+      <view class="user-list-container">
+        <view class="post-list-num"></view>
+      </view>
+      <view class="user-arrow-wrap">
+        <view class="user-info-arrow" />
+      </view>
+    </view>
+    <view class="user-post-wrap" >
+      <view class="user-post-chat" />
+      <view class="user-post-text-wrap">
+        <text class="user-text">标签管理</text>
+      </view>
+      <view class="user-list-container">
+        <view class="post-list-num"></view>
+      </view>
+      <view class="user-arrow-wrap">
+        <view class="user-info-arrow" />
+      </view>
+    </view>
+    <view class="user-post-wrap" bindtap="LDtap">
+      <view class="user-post-credit" />
+      <view class="user-post-text-wrap">
+        <text class="user-text">最近删除</text>
+      </view>
+      <view class="user-list-container">
+        <view class="post-list-num"></view>
+      </view>
+      <view class="user-arrow-wrap">
+        <view class="user-info-arrow" />
+      </view>
+    </view>
+  </view>
+  <view class="boundary" />
+  <view class="user-bbs-info-container">
+    <view class="user-post-wrap" bindtap="setTap">
+      <view class="user-post-gift" />
+      <view class="user-post-text-wrap">
+        <text class="user-text">应用设置</text>
+      </view>
+      <view class="user-list-container">
+        <view class="post-list-num"></view>
+      </view>
+      <view class="user-arrow-wrap">
+        <view class="user-info-arrow" />
+      </view>
+    </view>
+    <view class="user-post-wrap">
+      <view class="user-post-myad" />
+      <view class="user-post-text-wrap">
+        <text class="user-text">使用帮助</text>
+      </view>
+      <view class="user-list-container">
+        <view class="post-list-num"></view>
+      </view>
+      <view class="user-arrow-wrap">
+        <view class="user-info-arrow" />
+      </view>
+    </view>
+    <view class="user-post-wrap" bindtap="tapAbout">
+      <view class="user-post-aboutus" />
+      <view class="user-post-text-wrap">
+        <text class="user-text">关于我们</text>
+      </view>
+      <view class="user-list-container">
+        <view class="post-list-num"></view>
+      </view>
+      <view class="user-arrow-wrap">
+        <view class="user-info-arrow" />
+      </view>
+    </view>
+  </view>
+</view>
